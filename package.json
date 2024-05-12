@@ -1,7 +1,7 @@
 {
   "name": "muh187-coding-decoding",
-  "version": "1.0.0",
-  "description": "This is coding and decoding prject built in typescript",
+  "version": "1.1.1",
+  "description": "Adding shebang into it.",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",

@@ -1,37 +1,4 @@
-// import inquirer from "inquirer"
-// const userInput = await inquirer.prompt([
-//     {
-//         name: "message",
-//         message: "Enter your message: ",
-//         type: "input"
-//     },
-//     {
-//         name: "codingOrDecoding",
-//         message: "Choose Coding or Decoding",
-//         type: "list",
-//         choices: ["Coding", "Decoding"]
-//     }
-// ])
-// let myInput = userInput.message
-// let subString = myInput.split("")
-// let finalString: string[] = []
-// if (userInput.codingOrDecoding == "Coding"){
-//     for (let word = 0; word < subString.length; word++) {
-//         if (subString.length >= 3) {
-//             let r1 = "kps"
-//             let r2 = "dvm"
-//             let newString = r1 + subString.slice(1) + subString[0] + r2
-//             finalString.concat(newString)
-//         } else {
-//             subString.reverse()
-//             finalString.concat(subString)
-//         }
-//     }
-//     console.log(finalString.join(" "))
-// }
-// // let decoding = "kpsuhammadMdvm"
-// // newString = decoding[6] + decoding.slice(3,-4)
-// // console.log(newString)
+#! /usr/bin/env node
 import inquirer from "inquirer";
 async function main() {
     const userInput = await inquirer.prompt([
